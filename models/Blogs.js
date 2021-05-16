@@ -16,7 +16,7 @@ Blog.init(
             allowNull: false,
         },
         description: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
         },
         user_email: {
             type: DataTypes.STRING,
