@@ -19,8 +19,23 @@ const newFormHandler = async (event) => {
             document.location.replace("/profile");
         } else {
             response.json(err);
-            alert("Failed to create blog.")
+            alert("Failed to create blog post.")
         }
     }
 };
 
+const delButtonHandler = async (event) => {
+    if (event.target.hasAttribute("data-id")) {
+        const id = event.target.getAttribute("data-id");
+
+        const response = await fetch(`/api/books/${id}`, {
+            method: "DELETE",
+        });
+
+        if (response.ok) {
+            document.location.replace("/profile");
+        } else {
+            alert("Failed to delete blog post");
+        }
+    }
+};
