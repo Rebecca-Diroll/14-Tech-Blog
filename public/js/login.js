@@ -40,3 +40,23 @@ const signupFormHandler = async (event) => {
         }
     }
 };
+
+function createHideShow() {
+    let x = document.querySelector("#signup");
+    let y = document.querySelector(".createAccount");
+    let z = document.querySelector("#login");
+    let v = document.querySelector(".btn-login");
+
+    x.style.display = "none";
+    y.style.display = "block";
+    z.style.display = "block";
+    v.style.display = "none";
+}
+
+document
+    .querySelector(".login-form")
+    .addEventListener("submit", loginFormHandler);
+
+document
+    .querySelector(".signup-form")
+    .addEventListener("submit", signupFormHandler);
