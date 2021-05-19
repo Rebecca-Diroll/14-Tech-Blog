@@ -2,12 +2,10 @@
   <div class="row">
     <div class="col-auto">
       <h2>Welcome, {{name}}!</h2>
-      
     </div>
   </div>
 
   <div class="row mt-4">
-    
     <div class="flex-box justify-space-between">
       <form class="form new-blog-form profile-new-blog-form">
         <h3>Post a New Blog Entry:</h3>
@@ -27,9 +25,9 @@
       </form>
     </div>
     {{#if blogs.length}}
+
     <div class="col-md-6 blog-list current-post">
       <h3>Current Posts:</h3>
-
       {{#each blogs as |blog|}}
       <div class="row mb-2">
         <div class="col-md-8">

@@ -2,14 +2,12 @@ const newFormHandler = async (event) => {
     event.preventDefault();
 
     const title = document.querySelector("#blog-title").value.trim();
-    const author = document.querySelector("#blog-title").value.trim();
-    const description = document.querySelector("#blog-title").value.trim();
-    const user_email = document.querySelector("#blog-title").value.trim();
+    const description = document.querySelector("#blog-desc").value.trim();
 
-    if (title && author && description && user_email) {
+    if (title && description) {
         const response = await fetch(`/api/blogs`, {
             method: "POST",
-            body: JSON.stringify({ title, author, description, user_email }),
+            body: JSON.stringify({ title, description }),
             headers: {
                 "Content-Type": "application/json",
             },
@@ -28,7 +26,7 @@ const delButtonHandler = async (event) => {
     if (event.target.hasAttribute("data-id")) {
         const id = event.target.getAttribute("data-id");
 
-        const response = await fetch(`/api/books/${id}`, {
+        const response = await fetch(`/api/blogs/${id}`, {
             method: "DELETE",
         });
 
@@ -41,9 +39,9 @@ const delButtonHandler = async (event) => {
 };
 
 document
-    .querySelector(".new-book-form")
+    .querySelector(".new-blog-form")
     .addEventListener("submit", newFormHandler);
 
 document
-    .querySelector(".book-list")
+    .querySelector(".blog-list")
     .addEventListener("click", delButtonHandler);
