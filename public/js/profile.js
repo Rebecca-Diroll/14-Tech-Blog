@@ -1,10 +1,10 @@
 const newFormHandler = async (event) => {
     event.preventDefault();
 
-    const title = document.querySelector("#book-title").value.trim();
-    const author = document.querySelector("#book-title").value.trim();
-    const description = document.querySelector("#book-title").value.trim();
-    const user_email = document.querySelector("#book-title").value.trim();
+    const title = document.querySelector("#blog-title").value.trim();
+    const author = document.querySelector("#blog-title").value.trim();
+    const description = document.querySelector("#blog-title").value.trim();
+    const user_email = document.querySelector("#blog-title").value.trim();
 
     if (title && author && description && user_email) {
         const response = await fetch(`/api/blogs`, {

@@ -10,24 +10,18 @@
     
     <div class="flex-box justify-space-between">
       <form class="form new-blog-form profile-new-blog-form">
-        <h3>Post a new blog:</h3>
+        <h3>Post a New Blog Entry:</h3>
         <div class="form-group">
-          <label for="blog-title">Blog Title</label>
+          <label for="blog-title">Blog Title: </label>
           <input class="form-input" type="text" id="blog-title" name="blog-title" />
         </div>
+        <br>
         <div class="form-group">
-          <label for="blog-author">Author:</label>
-          <input class="form-input" type="text" id="blog-author" placeholder="first last" name="blog-author" />
-        </div>
-        <div class="form-group">
-          <label for="blog-desc">Blog Post:</label>
+          <label for="blog-desc">Blog Post: </label>
           <textarea class="form-input" id="blog-desc" name="blog-desc"></textarea>
         </div>
-        <div class="form-group">
-          <label for="blog-email">Preferred Email for contact:</label>
-          <input class="form-input" type="text" id="blog-email" name="blog-email" />
-        </div>
-        <div class="form-group">
+        <br>
+        <div>
           <button type="submit" class="btn btn-primary">Create</button>
         </div>
       </form>
@@ -50,4 +44,4 @@
     {{/if}}
   </div>
 </div>
-<script src="./js/profile.js"></script>
+<script src="/js/profile.js"></script>

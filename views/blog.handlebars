@@ -1,16 +1,15 @@
 <div class="container">
-  <h2>{{title}}</h2>
   <br>
   <div class="flex-box blog-box">
-    <div id="thumbnail"></div>
+    {{!-- <div id="thumbnail"></div> --}}
     <div class="blog-content">
-      <h3>Description:</h3>
+      <h2>{{title}}</h2>
       <p>{{description}}</p>
-      <h3>Author:</h3>
-      <p><span>{{author}}</span></p>
+      <h3><span>posted by: </span></h3>
+      <h3>{{user.name}}</h3>
       <p>
         <address>
-            <a href="mailto:{{user.email}}"><button class="btn btn-primary">Contact Author</button></a>
+            <a href="mailto:{{user.email}}"><button class="btn btn-primary">Email</button></a>
         </address>
       </p>
     </div>
