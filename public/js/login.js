@@ -47,10 +47,10 @@ function createHideShow() {
     let z = document.querySelector("#login");
     let v = document.querySelector(".btn-login");
 
-    x.style.display = "none";
-    y.style.display = "block";
-    z.style.display = "block";
-    v.style.display = "none";
+    x.style.display = "block";
+    // y.style.display = "block";
+    z.style.display = "none";
+    // v.style.display = "none";
 }
 
 document
