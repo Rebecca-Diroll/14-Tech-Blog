@@ -1,3 +1,7 @@
+body {
+  background-color: lemonchiffon;
+}
+
 .no-button {
     background: none;
     border: none;
@@ -38,7 +42,7 @@
     padding: 1em;
     border: rgb(94, 94, 94);
     border-style: solid;
-    border-radius: 1%;
+    border-radius: 2%;
     background-color: rgb(238, 234, 227);
   }
   
@@ -54,7 +58,7 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    
+    border-radius: 2%;
   }
   
   .blog-icon {
@@ -70,14 +74,18 @@
     margin: 1em;
     border: rgb(94, 94, 94);
     border-style: solid;
-    border-radius: 1%;
+    border-radius: 10px;
     background-color: rgb(238, 234, 227);
   }
   
   #blog-title {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
   
+  #blog-writer {
+    font-size: 1.25em;
+  }
+
   .blog-content {
     padding-left: 10%;
   }
