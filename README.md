@@ -40,9 +40,9 @@ Home Page
 
 ![Tech Blog Home Page](/assets/1-homepage.jpg)
 
-View Blog Entry
+Blog Entry
 
-![View Blog Entry](/assets/2-blog.jpg)
+![Blog Entry](/assets/2-blog.jpg)
 
 Login
 
