@@ -160,6 +160,7 @@ body {
   
   .current-post {
     margin: 1em;
+    padding: 0 0 1em 1em;
     border: rgb(94, 94, 94);
     border-style: solid;
     border-radius: 1%;
