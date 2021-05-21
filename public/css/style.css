@@ -87,7 +87,7 @@ body {
   }
 
   .blog-content {
-    padding-left: 10%;
+    padding-left: 3%;
   }
   
   .p-margin p {
@@ -158,6 +158,15 @@ body {
     margin: 3%;
   }
   
+  #blog-title {
+    width: 80%;
+  }
+
+  #blog-desc {
+    height: 5em;
+    width: 80%;
+  }
+
   .current-post {
     margin: 1em;
     padding: 0 0 1em 1em;
