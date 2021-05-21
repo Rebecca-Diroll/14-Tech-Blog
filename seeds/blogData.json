@@ -22,5 +22,21 @@
       "description": "JavaScript is the most popular programming language in use and it is used to control web site functionality. It is flexible and used for both front-end and back-end web development.",
       "user_email": "june@aol.com",
       "user_id":3
+    },
+    {
+      "id": 4,
+      "title": "Node.js",
+      "author": "Harold Edmond",
+      "description": "Node.js is a valuable tool because it allows users to write JavaScript for a server. NodeJS allows JavaScript to be used on the front-end and back-end of web development.",
+      "user_email": "harold@hotmail.com",
+      "user_id":4
+    },
+    {
+      "id": 5,
+      "title": "Express",
+      "author": "Ruby Irene",
+      "description": "Express is a popular Node.js web framework written using JavaScript. It is used to write handlers for route requests, insert data, set ports and template locations, and process middleware.",
+      "user_email": "ruby@gmail.com",
+      "user_id":5
     }
   ]
