@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## User Story
-The Tech Blog is a place for software engineers to post about developement tools and resources that are useful. It is a place to share and collaborate with others.
+The Tech Blog is a place for software engineers to post about development tools and resources that are useful. It is a place to share and collaborate with others.
 
 ## Table of Contents
 * [Usage](#usage)
